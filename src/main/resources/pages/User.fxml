@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="505.0" prefWidth="616.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sn.ismonline.ism_examen.UserController">
+    <children>
+        <Text layoutX="195.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GESTION DES UTILISATEURS" wrappingWidth="210.21630859375">
+            <font>
+                <Font name="System Bold Italic" size="15.0" />
+            </font>
+        </Text>
+        <Text layoutX="17.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID" wrappingWidth="45.21630859375">
+            <font>
+                <Font name="System Bold Italic" size="13.0" />
+            </font>
+        </Text>
+        <TextField fx:id="UidTfd" layoutX="17.0" layoutY="67.0" promptText="saisir ici" />
+        <Text layoutX="14.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NOM">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Text>
+        <TextField fx:id="UnomTfd" layoutX="17.0" layoutY="113.0" promptText="votre nom" />
+        <Text layoutX="14.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PRENOM">
+            <font>
+                <Font name="System Bold Italic" size="13.0" />
+            </font>
+        </Text>
+        <TextField fx:id="UprenomTfd" layoutX="17.0" layoutY="160.0" promptText="votre prenom" />
+        <Text layoutX="21.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LOGIN">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Text>
+        <TextField fx:id="UloginTfd" layoutX="17.0" layoutY="209.0" promptText="votre login" />
+        <Text layoutX="21.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PASSWORD">
+            <font>
+                <Font name="System Bold Italic" size="13.0" />
+            </font>
+        </Text>
+        <PasswordField fx:id="UpasswordTfd" layoutX="17.0" layoutY="270.0" promptText="mot de passe" />
+        <Text layoutX="21.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ACTIVED">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Text>
+        <TextField fx:id="UactivedTfd" layoutX="17.0" layoutY="320.0" promptText="saisir ici" />
+        <Text layoutX="21.0" layoutY="367.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PROFILE">
+            <font>
+                <Font name="System Bold Italic" size="13.0" />
+            </font>
+        </Text>
+        <TextField fx:id="UprofileTfd" layoutX="17.0" layoutY="371.0" promptText="saisir ici" />
+        <Button layoutX="168.0" layoutY="426.0" mnemonicParsing="false" text="OK" />
+        <Button layoutX="224.0" layoutY="426.0" mnemonicParsing="false" text="CLEAR" />
+        <Button layoutX="300.0" layoutY="426.0" mnemonicParsing="false" text="SAVE" />
+        <Button layoutX="365.0" layoutY="426.0" mnemonicParsing="false" text="UPDATE" />
+    </children>
+</AnchorPane>
+
